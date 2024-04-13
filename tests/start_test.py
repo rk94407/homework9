@@ -19,7 +19,7 @@ async def test_login_for_access_token():
 async def test_create_qr_code_unauthorized():
     qr_request = {
         "url": "https://example.com",
-        "fill_color": "red",
+        "fill_color": "black",
         "back_color": "white",
         "size": 10,
     }
